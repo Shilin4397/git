@@ -1,7 +1,9 @@
 package git.delete;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
+import java.util.SplittableRandom;
 
 /**
  * Created with IntelliJ IDEA.
@@ -37,5 +39,14 @@ public class Main {
             String str2 = in.nextLine();
             System.out.println(deleteString(str1,str2));
         }
+
+//        StringBuffer a = new StringBuffer("a");
+//        StringBuffer b = new StringBuffer("b");
+//        op(a,b);
+//        System.out.println(a+" "+ b);
     }
+//    static  void op (StringBuffer x , StringBuffer y) {
+//        x.append(y);
+//        y = x;
+//    }
 }
