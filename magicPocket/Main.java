@@ -2,6 +2,7 @@ package git.magicPocket;
 
 import com.sun.jmx.snmp.internal.SnmpSecurityCache;
 
+import java.io.StringWriter;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +39,8 @@ public class Main {
                 }
             }
             System.out.println(c[40]);
+
+
         }
     }
 
