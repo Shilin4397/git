@@ -7,6 +7,7 @@ package git.quickFindTopk;
  * Date:
  * Time:
  */
+
 public class Finder {
 
     public int findKth(int[] array, int n, int k) {
@@ -33,4 +34,5 @@ public class Finder {
         array [left] = k;
         return left;
     }
+
 }
