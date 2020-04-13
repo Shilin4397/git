@@ -29,6 +29,8 @@ public class Main {
         }
     }
 
+
+
     public static void mergeSortNor(int[] array) {
         int[] temp = new int[array.length];
         int gap = 1;
@@ -54,6 +56,7 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = {3,4,2,6,1,7,9,0,8,5};
         mergeSortNor(arr);
+
         System.out.println(Arrays.toString(arr));
     }
 }
