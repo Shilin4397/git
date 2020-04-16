@@ -10,14 +10,10 @@ package git.longNumAdd;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Main {
-
-    public static String AddLongInteger(String addend, String augend) {
-
-        return null;
-    }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -50,6 +46,18 @@ public class Main {
                 s.insert(0,temp);
             }
             System.out.println(s);
+        }
+    }
+}
+class Fun {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        while(in.hasNext()) {
+            String s1 = in.next();
+            String s2 = in.next();
+            BigInteger num1 = new BigInteger(s1);
+            BigInteger num2 = new BigInteger(s2);
+            System.out.println(num1.add(num2));
         }
     }
 }
